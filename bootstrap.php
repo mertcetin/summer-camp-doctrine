@@ -1,6 +1,6 @@
 <?php
 // bootstrap.php
-
+date_default_timezone_set('Europe/Istanbul'); 
 require_once "entities/User.php";
 require_once "entities/Product.php";
 require_once "entities/Bug.php";

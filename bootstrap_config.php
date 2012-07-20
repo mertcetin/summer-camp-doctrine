@@ -20,5 +20,14 @@ $conn = array(
     'path' => __DIR__ . '/db.sqlite',
 );
 
+//$conn = array(
+//    'dbname' => 'summercamp',
+//    'user' => 'cihangir',
+//    'password' => '123456',
+//    'host' => '192.168.125.31',
+//    'driver' => 'pdo_pgsql',
+//);
+
+
 // obtaining the entity manager
 $entityManager = \Doctrine\ORM\EntityManager::create($conn, $config);
